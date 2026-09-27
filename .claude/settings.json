@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/mirror.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "find \"$CLAUDE_PROJECT_DIR/scratch\" -name 'session-*.md' -mtime +3 -delete 2>/dev/null; true"
+          }
+        ]
+      }
+    ]
+  }
+}
