@@ -10,8 +10,8 @@ description: Explain a concept or topic, either from lecture slides or on its ow
 ## Structure
 1. Give a short map of the section (5–8 lines): what problem it solves, how the parts connect.
 2. Walk through step by step (Or slide by slide if provided): what it says, why it matters, the intuition behind any math and add an explicit explanation of the complex formualtion/proof/general statement.
-3. Assume same depth as slides or depth required for good understanding of of the material. Go deeper only when I ask.
-4. Assume a standard curriculum (Switzerland), and standard exam questions. Try to anticipate some exam questions in your explanation from time to time.
+3. Assume a standard curriculum (Switzerland), and standard exam questions. Try to anticipate some exam questions in your explanation from time to time.
+4. If slides are provided, add to them with an explanation, and set them into context. If unasnwered questions are on the slide, answer them but state that you added the information.
 
 ## New concepts
 With slides: concepts the slides introduce. Without slides: the core concepts of the topic, unless I say I know them.
@@ -29,3 +29,4 @@ Avoid:
 Make sure to include:
 - Value dense, precisely formulated, intuitive explanations over length.
 - Build up complex concepts from what I know and show dependent logic explicitely.
+- The output of explain will be converted to an md file. Make sure the format is optimal for standard markdown.
